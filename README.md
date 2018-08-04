@@ -1,7 +1,7 @@
 # Spring-Hibernate
-Spring Framework 5: Spring Core, Spring AOP, Spring MVC, Spring Security, Spring REST, Hibernate
+Spring Framework 5
 
-## 1.LEARN these HOT TOPICS in Spring 5: 
+## 1.LEARN these HOT TOPICS in Spring: 
 
 Spring Core
 
