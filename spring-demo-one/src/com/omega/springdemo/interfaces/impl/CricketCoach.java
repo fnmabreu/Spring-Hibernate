@@ -1,4 +1,7 @@
-package com.omega.springdemo;
+package com.omega.springdemo.interfaces.impl;
+
+import com.omega.springdemo.interfaces.Coach;
+import com.omega.springdemo.interfaces.FortuneService;
 
 public class CricketCoach implements Coach {
 

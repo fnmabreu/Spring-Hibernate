@@ -14,22 +14,22 @@
     
     <!-- Define the dependency -->
     <bean id="myFortuneService"
-    	class="com.omega.springdemo.RandomFortuneService">
+    	class="com.omega.springdemo.interfaces.impl.RandomFortuneService">
     </bean>
     
     <bean id="myFortune"
-    	class="com.omega.springdemo.HappyFortuneService">
+    	class="com.omega.springdemo.interfaces.impl.HappyFortuneService">
     </bean>
     
     <bean id="myFootballCoach" 
-    	class="com.omega.springdemo.FootballCoach">
+    	class="com.omega.springdemo.interfaces.impl.FootballCoach">
     	
     	<!-- set up constructor injection -->
     	<constructor-arg ref="myFortuneService" />
     </bean>
     
     <bean id="myCricketCoach" 
-   		class="com.omega.springdemo.CricketCoach">
+   		class="com.omega.springdemo.interfaces.impl.CricketCoach">
    	
    	<!-- set up setter injection -->
    	<property name="fortuneService" ref="myFortune" />

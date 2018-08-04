@@ -1,4 +1,7 @@
-package com.omega.springdemo;
+package com.omega.springdemo.start;
+
+import com.omega.springdemo.interfaces.Coach;
+import com.omega.springdemo.interfaces.impl.TrackCoach;
 
 public class MyApp {
 

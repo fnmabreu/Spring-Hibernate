@@ -7,36 +7,20 @@
     http://www.springframework.org/schema/context
     http://www.springframework.org/schema/context/spring-context.xsd">
 
-	<!-- Load the properties file: sport.properties -->
-	<context:property-placeholder location="classpath:sport.properties" />
-
     <!-- Define your beans here -->
     
-    <!-- Define the dependency -->
+    <!-- Define the dependency -->    
     <bean id="myFortuneService"
-    	class="com.omega.springdemo.interfaces.impl.RandomFortuneService">
-    </bean>
-    
-    <bean id="myFortune"
     	class="com.omega.springdemo.interfaces.impl.HappyFortuneService">
     </bean>
     
-    <bean id="myFootballCoach" 
-    	class="com.omega.springdemo.interfaces.impl.FootballCoach">
+    <!-- Default scope is singleton -->
+    <bean id="myCoach" 
+    	class="com.omega.springdemo.interfaces.impl.TrackCoach"
+    	scope="prototype">
     	
     	<!-- set up constructor injection -->
     	<constructor-arg ref="myFortuneService" />
-    </bean>
-    
-    <bean id="myCricketCoach" 
-   		class="com.omega.springdemo.interfaces.impl.CricketCoach">
-   	
-   	<!-- set up setter injection -->
-   	<property name="fortuneService" ref="myFortune" />
-   	
-   	<!-- inject literal values -->
-   	<property name="emailAddress" value="${foo.email}" />
-   	<property name="team" value="${foo.team}" />
     </bean>
     
 </beans>

@@ -1,6 +1,8 @@
-package com.omega.springdemo;
+package com.omega.springdemo.interfaces.impl;
 
 import java.util.Random;
+
+import com.omega.springdemo.interfaces.FortuneService;
 
 public class RandomFortuneService implements FortuneService {
 
