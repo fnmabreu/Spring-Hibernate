@@ -18,7 +18,7 @@ public class PropertiesAnnotationDemoApp {
 		System.out.println(swimCoach.getDailyWorkOut());
 
 		// call method to get the daily fortune
-		System.out.println("Email: " + swimCoach.getEmail() + "\nTeam: " + swimCoach.getTeam());
+		// System.out.println("Email: " + swimCoach.getEmail() + "\nTeam: " + swimCoach.getTeam());
 		
 		// close the context
 		context.close();
