@@ -22,6 +22,20 @@
 					<form:errors path="lastName" cssClass="error" />
 				</td>
 			</tr>
+			<tr>
+				<td>Free Passes:</td>
+				<td>
+					<form:input path="freePasses" />
+					<form:errors path="freePasses" cssClass="error" />
+				</td>
+			</tr>
+			<tr>
+				<td>Postal Code:</td>
+				<td>
+					<form:input path="postalCode" />
+					<form:errors path="postalCode" cssClass="error" />
+				</td>
+			</tr>
 			<br><br>
 			<tr>
 				<td colspan="2"><input type="submit" value="Submit" /></td>
