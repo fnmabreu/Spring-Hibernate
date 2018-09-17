@@ -1,6 +1,5 @@
 package com.omega.hibernate.demo;
 
-import java.text.ParseException;
 import java.util.Date;
 
 import org.hibernate.Session;
