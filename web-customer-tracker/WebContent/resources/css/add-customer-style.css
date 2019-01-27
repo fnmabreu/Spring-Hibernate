@@ -7,7 +7,7 @@ label {
 	width: 100px; 
 	display: block; 
 	text-align: right;
-	margin-right: 10px;
+	margin-right: 0px;
 	margin-top: 8px;
 	margin-bottom: 8px;
 }
@@ -30,7 +30,7 @@ input {
 
 table {   
 	border-style:none;
-	width:50%;
+	width:25%;
 }
 
 tr:nth-child(even) {background: #FFFFFF}

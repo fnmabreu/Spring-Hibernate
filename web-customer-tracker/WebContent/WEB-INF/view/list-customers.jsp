@@ -8,8 +8,6 @@
 	
 	<!-- reference style sheet -->
 	<link type="text/css" rel="stylesheet" href="${pageContext.request.contextPath}/resources/css/style.css" />
-	
-	
 </head>
 
 <body>
@@ -22,6 +20,11 @@
 	
 	<div id="container">
 		<div id="content">
+		
+			<!-- put new button: Add Customer -->
+			<input type="button" value="Add Customer" 
+				onclick="window.location.href='showFormForAdd'; return false;"
+				class="add-button"/>
 		
 			<!-- add html table -->
 			<table>
