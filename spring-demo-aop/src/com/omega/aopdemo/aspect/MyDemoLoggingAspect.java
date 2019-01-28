@@ -12,8 +12,12 @@ public class MyDemoLoggingAspect {
 	
 	// let's start with @Before advice
 	
-	@Before("execution(public void addAccount())")
+	// execution(modified-patterns? return-type-pattern declaring-type-pattern? method-name-pattern(param-pattern) throws-pattern?)
+	
+	//@Before("execution(public void add*())")
+	
+	@Before("execution(* add*())") // use wildcards
 	public void beforeAddAccountAdvice() {
-		System.out.println("\n=====>>> Executing @Before advice on addAccount()");
+		System.out.println("\n=====>>> Executing @Before advice on method");
 	}
 }
