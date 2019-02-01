@@ -1,26 +1,58 @@
-# Spring-Hibernate
-Spring Framework 5
+# About this course
+
+Spring 5: Learn Spring 5 Core, AOP, Spring MVC, Spring Security, Spring REST, Spring Boot 2, Thymeleaf, JPA & Hibernate
+
+[Spring Hibernate Tutorial](https://www.udemy.com/spring-hibernate-tutorial)
+
 
 ## 1.LEARN these HOT TOPICS in Spring: 
 
-Spring Core
+* Spring Framework 5
 
-Spring Annotations
+* Spring Core
 
-Spring Java Configuration
+* Spring Annotations
 
-Spring AOP
+* Spring Java Configuration (all Java, no xml)
 
-Spring MVC
+* Spring AOP
 
-Hibernate CRUD 
+* Spring MVC
 
-Spring MVC and Hibernate CRUD real-time project
+* Hibernate CRUD
 
-Spring Security (with password encryption in the database)
+* JPA CRUD
 
-Spring REST (with full database CRUD real-time project)
+* Spring Security
 
-Maven
+* Spring REST
 
-## 2. Build a complete Spring MVC + Hibernate CRUD web app
+* Maven
+
+## 2. SPRING BOOT
+
+* Spring Boot Starters
+
+* Spring Boot and Hibernate
+
+* Spring Boot and Spring Data JPA
+
+* Spring Boot and Spring Data REST
+
+* Spring Boot, Thymeleaf and Spring MVC
+
+## 3. REAL-TIME PROJECTS
+
+* Spring MVC and Hibernate CRUD real-time project
+
+* Spring Security (with password encryption in the database)
+
+* Spring REST (with full database CRUD real-time project)
+
+* Spring Boot REST (with full database CRUD real-time project)
+
+* Spring Boot with JPA and Spring Data JPA (with full database CRUD real-time project)
+
+* Spring Boot with Spring Data REST (with full database CRUD real-time project)
+
+* Spring Boot with Thymeleaf (with database integration real-time project)
